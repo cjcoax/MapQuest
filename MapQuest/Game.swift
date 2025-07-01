@@ -30,7 +30,7 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-import UIKit
+import SwiftUI
 import CoreLocation
 
 let encounterRadius: CLLocationDistance = 10 //meters
@@ -253,25 +253,25 @@ class Game {
 }
 
 extension Game {
-  func image(for monster: Monster) -> UIImage? {
+  func image(for monster: Monster) -> Image? {
     switch monster.name {
     case Monster.goblin.name:
-      return UIImage(named: "goblin")
+      return Image("goblin")
     case NPC.king.name:
-      return UIImage(named: "king")
+      return Image("king")
     default:
       return nil
     }
   }
 
-  func image(for store: Store) -> UIImage? {
-    return UIImage(named: "store")
+  func image(for store: Store) -> Image? {
+    return Image("store")
   }
 
-  func image(for item: Item) -> UIImage? {
+  func image(for item: Item) -> Image? {
     switch item.name {
     case Weapon.sword6Plus.name:
-      return UIImage(named: "sword")
+      return Image("sword")
     default:
       return nil
     }
