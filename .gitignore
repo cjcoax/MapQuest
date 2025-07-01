@@ -1,0 +1,72 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon?
+._*
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Xcode Preview and Logs
+*.xcpreview
+*.xcscmblueprint
+*.xcactivitylog
+
+# Archives
+*.xcarchive
+
+# Firebase Crashlytics
+*.dSYM.zip
+*.dSYM
+
+# Temporary files
+*.tmp
+*.bak
+
+# App Thinning
+*.ipa
+*.app
+
+# Xcode Cloud
+.xcmetrics/
+
+# User settings
+*.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
